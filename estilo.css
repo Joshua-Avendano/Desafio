@@ -8,10 +8,10 @@ body {
     padding: 0;
 }
 
-/* Encabezado: barra delgada de color negro */
+/* Encabezado: barra delgada */
 header {
-   /*  background-color: #feffe0; Fondo negro */
-    background-color: #ffffe5; /* Fondo negro */
+
+    background-color: #ffffe5; 
     height: 100px;
     display: flex;
     align-items: center;
@@ -200,7 +200,7 @@ footer p {
     }
 
     .text-area, .mensaje {
-        width: 93%;
+        width: 50%;
         height: 200px;
     }
 
