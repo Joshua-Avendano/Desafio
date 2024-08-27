@@ -71,7 +71,7 @@ section {
     border: 2px solid #b3e5b3; /* Verde pastel */
     border-radius: 5px;
     background-color: #f2fff2; /* Fondo verde muy suave */
-    background-image: url("mensaje.png");
+    background-image: url("sobre.png");
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Coloca la imagen en el centro */
     background-size: 35%; /* Hace la imagen más pequeña (35% del contenedor) */
