@@ -70,7 +70,7 @@ section {
     border: 2px solid #b3e5b3;
     border-radius: 5px;
     background-color: #f2fff2;
-    background-image: url("/Desafío/imagenes/mensaje.png");
+    background-image: url("mensaje.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35%;
