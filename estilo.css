@@ -1,16 +1,17 @@
 /* Estilo general */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e6f7e6;
+    background-color: #e6f7e6; /* Verde pastel suave */
     background-image: url("fondosol.png");
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Encabezado */
+/* Encabezado: barra delgada de color negro */
 header {
-    background-color: #ffffe5;
+   /*  background-color: #feffe0; Fondo negro */
+    background-color: #ffffe5; /* Fondo negro */
     height: 100px;
     display: flex;
     align-items: center;
@@ -19,11 +20,11 @@ header {
 }
 
 header img.logo {
-    width: 100px;
+    width: 100px; /* Ajuste del tamaño del logo */
 }
 
-.encabezado {
-    color: rgb(33, 157, 79);
+.encabezado{
+    color: rgb(33, 157, 79); /* Letras blancas */
     font-size: 24px;
     font-weight: bold;
     margin: 0;
@@ -32,17 +33,17 @@ header img.logo {
 /* Estructura principal de la página */
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Alinea los contenedores a los lados opuestos */
     padding: 20px;
     gap: 20px;
 }
 
 /* Contenedores de las secciones */
 section {
-    width: 45%;
-    height: 550px;
+    width: 45%; /* Ajusta el tamaño de las secciones */
+    height: 550px; /* Ajusta la altura para hacer los cuadros más largos */
     padding: 20px;
-    background-color: #ccffcc;
+    background-color: #ccffcc; /* Verde pastel claro */
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -52,12 +53,12 @@ section {
     width: 93%;
     height: 65%;
     padding: 15px;
-    border: 2px solid #b3e5b3;
+    border: 2px solid #b3e5b3; /* Verde pastel */
     border-radius: 5px;
-    background-color: #f2fff2;
+    background-color: #f2fff2; /* Fondo verde muy suave */
     background-image: url("cifrado.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Coloca la imagen en el centro */
     color: #333;
     font-size: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -67,22 +68,29 @@ section {
     width: 93%;
     height: 65%;
     padding: 15px;
-    border: 2px solid #b3e5b3;
+    border: 2px solid #b3e5b3; /* Verde pastel */
     border-radius: 5px;
-    background-color: #f2fff2;
+    background-color: #f2fff2; /* Fondo verde muy suave */
     background-image: url("mensaje.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35%;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Coloca la imagen en el centro */
+    background-size: 35%; /* Hace la imagen más pequeña (35% del contenedor) */
     color: #333;
     font-size: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Indicaciones del texto */
-.informacion, .titulomensaje {
+.informacion {
     font-size: 18px;
-    color: #2e8b57;
+    color: #2e8b57; /* Verde oscuro */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulomensaje {
+    font-size: 18px;
+    color: #2e8b57; /* Verde oscuro */
     text-align: center;
     margin-top: 10px;
 }
@@ -90,33 +98,59 @@ section {
 /* Botones centrados */
 .botones {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: center; /* Centrando los botones */
+    gap: 20px; /* Espacio entre los botones */
     margin-top: 10px;
 }
 
-.btn-encriptar, .btn-desencriptar, .copiar {
+.btn-encriptar {
     padding: 10px 20px;
     border: none;
     border-radius: 25px;
-    background-color: #000000;
+    background-color: #000000; /* Verde pastel */
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.btn-encriptar:hover, .btn-desencriptar:hover {
-    background-color: #2e8b57;
+.btn-desencriptar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000000; /* Verde pastel */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-encriptar:hover {
+    background-color: #2e8b57 /* Verde pastel más oscuro al pasar el mouse */
+}
+
+.btn-desencriptar:hover {
+    background-color: #2e8b57; /* Verde pastel más oscuro al pasar el mouse */
+}
+
+/* Botón copiar */
+.copiar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000000; /* Verde pastel */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .copiar:hover {
     background-color: #d85a00;
 }
 
-/* Footer */
 footer {
-    background-color: #2e8b57;
+    background-color: #2e8b57; /* Verde oscuro */
     color: white;
     text-align: center;
     padding: 20px;
@@ -130,8 +164,8 @@ footer p {
     font-size: 14px;
 }
 
-footer img.alu {
-    width: 45px;
+.alu {
+    width: 45px; /* Ajuste del tamaño del logo */
     margin-top: 10px;
 }
 
